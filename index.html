@@ -8,7 +8,6 @@
 
 <title>South Sudan Finder | Discover Juba</title>
 
-<!-- LEAFLET MAP CSS -->
 <link
 rel="stylesheet"
 href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -203,7 +202,7 @@ nav {
 
 .hero p {
 
-    max-width: 650px;
+    max-width: 700px;
 
     color: #e4e7ec;
 
@@ -359,7 +358,7 @@ section {
 
 
 /* =========================
-   MAP SECTION
+   MAP
 ========================= */
 
 .map-section {
@@ -396,9 +395,6 @@ section {
     height: 100%;
 }
 
-
-/* MAP TITLE */
-
 .map-overlay {
 
     position: absolute;
@@ -433,9 +429,6 @@ section {
 
     font-size: 0.75rem;
 }
-
-
-/* MAP LEGEND */
 
 .map-legend {
 
@@ -825,21 +818,13 @@ South Sudan Finder
 
 <div class="nav-links">
 
-<a href="#home">
-Home
-</a>
+<a href="#home">Home</a>
 
-<a href="#map">
-Juba Map
-</a>
+<a href="#map">Juba Map</a>
 
-<a href="#directory">
-Directory
-</a>
+<a href="#directory">Directory</a>
 
-<a href="#about">
-About
-</a>
+<a href="#about">About</a>
 
 </div>
 
@@ -852,42 +837,31 @@ About
      HERO
 ========================= -->
 
-<section
-    class="hero"
-    id="home">
+<section class="hero" id="home">
 
 <div class="hero-content">
 
 <span class="hero-label">
-
 🇸🇸 SOUTH SUDAN
-
 </span>
 
-
 <h1>
-
 Discover
 <span>Juba.</span>
-
 </h1>
-
 
 <p>
 
-Your simple and attractive guide to
-selected hotels, banks, universities
-and churches in Juba, South Sudan.
+Your digital guide to hotels, banks,
+universities, churches, restaurants,
+transport, telecommunications,
+shopping, hospitals and markets
+in Juba, South Sudan.
 
 </p>
 
-
-<a
-    href="#map"
-    class="hero-button">
-
+<a href="#map" class="hero-button">
 Explore Juba Map
-
 </a>
 
 </div>
@@ -896,7 +870,7 @@ Explore Juba Map
 
 
 <!-- =========================
-     CATEGORY BUTTONS
+     CATEGORY MENU
 ========================= -->
 
 <section class="category-menu">
@@ -906,55 +880,63 @@ Explore Juba Map
 <div class="category-buttons">
 
 
-<a
-    href="#hotels"
-    class="category-button">
-
-<span class="big-icon">
-🏨
-</span>
-
+<a href="#hotels" class="category-button">
+<span class="big-icon">🏨</span>
 Hotels
-
 </a>
 
 
-<a
-    href="#banks"
-    class="category-button">
-
-<span class="big-icon">
-🏦
-</span>
-
+<a href="#banks" class="category-button">
+<span class="big-icon">🏦</span>
 Banks
-
 </a>
 
 
-<a
-    href="#universities"
-    class="category-button">
-
-<span class="big-icon">
-🎓
-</span>
-
+<a href="#universities" class="category-button">
+<span class="big-icon">🎓</span>
 Universities
-
 </a>
 
 
-<a
-    href="#churches"
-    class="category-button">
-
-<span class="big-icon">
-⛪
-</span>
-
+<a href="#churches" class="category-button">
+<span class="big-icon">⛪</span>
 Churches
+</a>
 
+
+<a href="#restaurants" class="category-button">
+<span class="big-icon">🍽️</span>
+Restaurants
+</a>
+
+
+<a href="#transport" class="category-button">
+<span class="big-icon">🚕</span>
+Taxi
+</a>
+
+
+<a href="#telecom" class="category-button">
+<span class="big-icon">📱</span>
+Telecom
+</a>
+
+
+<a href="#shopping" class="category-button">
+<span class="big-icon">🛍️</span>
+Shopping
+</a>
+
+
+<a href="#hospitals" class="category-button">
+<span class="big-icon">🏥</span>
+Hospitals
+</a>
+
+
+<a href="#markets" class="category-button">
+<span class="big-icon">🛍️</span>
+Markets
 </a>
 
 
@@ -966,15 +948,12 @@ Churches
 
 
 <!-- =========================
-     JUBA MAP
+     MAP
 ========================= -->
 
-<section
-    class="map-section"
-    id="map">
+<section class="map-section" id="map">
 
 <div class="container">
-
 
 <div class="section-title">
 
@@ -989,7 +968,10 @@ Juba Interactive Map
 <p>
 
 Explore selected hotels, banks,
-universities and churches around Juba.
+universities, churches, restaurants,
+taxi services, telecommunication
+providers, shopping destinations,
+hospitals and markets.
 
 </p>
 
@@ -997,7 +979,6 @@ universities and churches around Juba.
 
 
 <div class="map-wrapper">
-
 
 <div class="map-overlay">
 
@@ -1017,24 +998,18 @@ Interactive location guide
 
 <div class="map-legend">
 
-<div class="legend-item">
-🏨 Hotels
-</div>
-
-<div class="legend-item">
-🏦 Banks
-</div>
-
-<div class="legend-item">
-🎓 Universities
-</div>
-
-<div class="legend-item">
-⛪ Churches
-</div>
+<div class="legend-item">🏨 Hotels</div>
+<div class="legend-item">🏦 Banks</div>
+<div class="legend-item">🎓 Universities</div>
+<div class="legend-item">⛪ Churches</div>
+<div class="legend-item">🍽️ Restaurants</div>
+<div class="legend-item">🚕 Taxi</div>
+<div class="legend-item">📱 Telecom</div>
+<div class="legend-item">🛍️ Shopping</div>
+<div class="legend-item">🏥 Hospitals</div>
+<div class="legend-item">🛍️ Markets</div>
 
 </div>
-
 
 </div>
 
@@ -1047,9 +1022,7 @@ Interactive location guide
      DIRECTORY
 ========================= -->
 
-<section
-    class="directory-section"
-    id="directory">
+<section class="directory-section" id="directory">
 
 <div class="container">
 
@@ -1065,10 +1038,8 @@ Places You Need to Know
 </h2>
 
 <p>
-
-Explore selected places and institutions
-in Juba.
-
+Explore selected places, institutions
+and services in Juba.
 </p>
 
 </div>
@@ -1088,9 +1059,7 @@ in Juba.
 
 <div>
 
-<h2>
-Hotels
-</h2>
+<h2>Hotels</h2>
 
 <p>
 Accommodation & hospitality
@@ -1105,132 +1074,118 @@ Accommodation & hospitality
 
 
 <div class="card">
-
-<div class="icon">
-🏨
-</div>
-
-<span class="card-category">
-Hotel
-</span>
-
-<h3>
-Pyramid Hotel
-</h3>
-
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Pyramid Hotel</h3>
 <p>
-Hotel accommodation and
-hospitality services in Juba.
+Hotel accommodation and hospitality
+services in Juba.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🏨
-</div>
-
-<span class="card-category">
-Hotel
-</span>
-
-<h3>
-Radisson Blu Hotel
-</h3>
-
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Radisson Blu Hotel</h3>
 <p>
 Premium international hotel
 accommodation in Juba.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🏨
-</div>
-
-<span class="card-category">
-Hotel
-</span>
-
-<h3>
-Landmark Hotel
-</h3>
-
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Landmark Hotel</h3>
 <p>
 Hotel accommodation and
 hospitality services.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🏨
-</div>
-
-<span class="card-category">
-Hotel
-</span>
-
-<h3>
-Palm Africa Hotel
-</h3>
-
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Palm Africa Hotel</h3>
 <p>
 Accommodation and hospitality
 services in Juba.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🏨
-</div>
-
-<span class="card-category">
-Hotel
-</span>
-
-<h3>
-Quality Hotel
-</h3>
-
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Quality Hotel</h3>
 <p>
 Hotel accommodation and
 visitor services.
 </p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
 
+
+<div class="card">
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Dembesh Hotel</h3>
+<p>
+Hotel accommodation, hospitality
+and visitor services in Juba.
+</p>
 <span class="location">
-📍 Juba, South Sudan
+📍 Hai Mission, Opposite Juba Football Stadium
 </span>
+</div>
 
+
+<div class="card">
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Imperial Plaza Hotel</h3>
+<p>
+Luxury hotel accommodation,
+hospitality and conference services.
+</p>
+<span class="location">
+📍 Nimule Street, Juba
+</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>AFEX Hotel</h3>
+<p>
+Hotel and hospitality services
+for visitors in Juba.
+</p>
+<span class="location">
+📍 AFEX Rivercamp, Stadium Road
+</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏨</div>
+<span class="card-category">Hotel</span>
+<h3>Ambassador Hotel Juba</h3>
+<p>
+Hotel accommodation and
+hospitality services in Juba.
+</p>
+<span class="location">
+📍 AFEX Camp, Hai Malakal
+</span>
 </div>
 
 
@@ -1253,9 +1208,7 @@ visitor services.
 
 <div>
 
-<h2>
-Banks
-</h2>
+<h2>Banks</h2>
 
 <p>
 Banking & financial services
@@ -1270,80 +1223,65 @@ Banking & financial services
 
 
 <div class="card">
-
-<div class="icon">
-🏦
-</div>
-
-<span class="card-category">
-Bank
-</span>
-
-<h3>
-Ecobank
-</h3>
-
-<p>
-Banking and financial
-services.
-</p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<div class="icon">🏦</div>
+<span class="card-category">Bank</span>
+<h3>Ecobank</h3>
+<p>Banking and financial services.</p>
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🏦
-</div>
-
-<span class="card-category">
-Bank
-</span>
-
-<h3>
-Stanbic Bank
-</h3>
-
-<p>
-Banking and financial
-services.
-</p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<div class="icon">🏦</div>
+<span class="card-category">Bank</span>
+<h3>Stanbic Bank</h3>
+<p>Banking and financial services.</p>
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🏦
+<div class="icon">🏦</div>
+<span class="card-category">Bank</span>
+<h3>Equity Bank</h3>
+<p>Banking and financial services.</p>
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
-<span class="card-category">
-Bank
-</span>
 
-<h3>
-Equity Bank
-</h3>
-
+<div class="card">
+<div class="icon">🏦</div>
+<span class="card-category">Bank</span>
+<h3>Afriland First Bank</h3>
 <p>
-Banking and financial
-services.
+Banking and financial services
+in Juba.
 </p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
 
-<span class="location">
-📍 Juba, South Sudan
-</span>
 
+<div class="card">
+<div class="icon">🏦</div>
+<span class="card-category">Bank</span>
+<h3>KCB Bank</h3>
+<p>
+Banking and financial services
+in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏦</div>
+<span class="card-category">Bank</span>
+<h3>Nile Commercial Bank</h3>
+<p>
+Banking and financial services
+in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
@@ -1366,9 +1304,7 @@ services.
 
 <div>
 
-<h2>
-Universities
-</h2>
+<h2>Universities</h2>
 
 <p>
 Higher education & learning
@@ -1383,132 +1319,74 @@ Higher education & learning
 
 
 <div class="card">
-
-<div class="icon">
-🎓
-</div>
-
-<span class="card-category">
-University
-</span>
-
-<h3>
-University of Juba
-</h3>
-
+<div class="icon">🎓</div>
+<span class="card-category">University</span>
+<h3>University of Juba</h3>
 <p>
 Higher education institution
 in South Sudan.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🎓
-</div>
-
-<span class="card-category">
-University
-</span>
-
-<h3>
-Upper Nile University
-</h3>
-
+<div class="icon">🎓</div>
+<span class="card-category">University</span>
+<h3>Upper Nile University</h3>
 <p>
 Higher education and
 academic programs.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🎓
-</div>
-
-<span class="card-category">
-University
-</span>
-
-<h3>
-Starford University
-</h3>
-
+<div class="icon">🎓</div>
+<span class="card-category">University</span>
+<h3>Starford University</h3>
 <p>
 Higher education and
 academic services.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🎓
-</div>
-
-<span class="card-category">
-University
-</span>
-
-<h3>
-St. Mary College
-</h3>
-
+<div class="icon">🎓</div>
+<span class="card-category">University</span>
+<h3>St. Mary College</h3>
 <p>
 Education and academic
 learning services.
 </p>
-
-<span class="location">
-📍 Juba, South Sudan
-</span>
-
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
 <div class="card">
-
-<div class="icon">
-🎓
-</div>
-
-<span class="card-category">
-University
-</span>
-
-<h3>
-Destiny University
-</h3>
-
+<div class="icon">🎓</div>
+<span class="card-category">University</span>
+<h3>Destiny University</h3>
 <p>
 Higher education and
 professional learning.
 </p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
 
-<span class="location">
-📍 Juba, South Sudan
-</span>
 
+<div class="card">
+<div class="icon">🎓</div>
+<span class="card-category">University</span>
+<h3>Catholic University of South Sudan</h3>
+<p>
+Higher education and academic
+programs in South Sudan.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
 </div>
 
 
@@ -1531,9 +1409,7 @@ professional learning.
 
 <div>
 
-<h2>
-Churches
-</h2>
+<h2>Churches</h2>
 
 <p>
 Places of worship & community
@@ -1548,22 +1424,537 @@ Places of worship & community
 
 
 <div class="card">
-
-<div class="icon">
-⛪
-</div>
-
-<span class="card-category">
-Church
-</span>
-
-<h3>
-All Saints Cathedral
-</h3>
-
+<div class="icon">⛪</div>
+<span class="card-category">Church</span>
+<h3>All Saints Cathedral</h3>
 <p>
 Christian place of worship
 and community.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">⛪</div>
+<span class="card-category">Church</span>
+<h3>St. Theresa Cathedral Kator</h3>
+<p>
+Christian worship and
+community services.
+</p>
+<span class="location">📍 Kator, Juba</span>
+</div>
+
+
+<div class="card">
+<div class="icon">⛪</div>
+<span class="card-category">Church</span>
+<h3>Holy Spirit Parish Munuki</h3>
+<p>
+Christian parish serving
+the Munuki community.
+</p>
+<span class="location">📍 Munuki, Juba</span>
+</div>
+
+
+<div class="card">
+<div class="icon">⛪</div>
+<span class="card-category">Church</span>
+<h3>Seventh-day Adventist Church</h3>
+<p>
+Christian worship and community
+services in Juba.
+</p>
+<span class="location">📍 Munuki, Juba</span>
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     RESTAURANTS
+========================= -->
+
+<div id="restaurants">
+
+<div class="category-heading">
+
+<div class="category-heading-icon">
+🍽️
+</div>
+
+<div>
+
+<h2>Restaurants</h2>
+
+<p>
+Food & dining in Juba
+</p>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+<div class="icon">🍽️</div>
+<span class="card-category">Restaurant</span>
+<h3>Uncle Restaurant</h3>
+<p>
+Restaurant and dining services
+for visitors and residents.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🍴</div>
+<span class="card-category">Restaurant</span>
+<h3>Comrade Restaurant</h3>
+<p>
+Restaurant and dining services
+in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🍽️</div>
+<span class="card-category">Restaurant</span>
+<h3>Medina Restaurant</h3>
+<p>
+Restaurant and dining services
+for visitors and residents.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     TAXI
+========================= -->
+
+<div id="transport">
+
+<div class="category-heading">
+
+<div class="category-heading-icon">
+🚕
+</div>
+
+<div>
+
+<h2>Taxi & Transport</h2>
+
+<p>
+Getting around Juba
+</p>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+<div class="card">
+
+<div class="icon">🚕</div>
+
+<span class="card-category">
+Taxi
+</span>
+
+<h3>
+Raba Taxi
+</h3>
+
+<p>
+Taxi transportation service
+for visitors travelling around Juba.
+</p>
+
+<span class="location">
+📍 Juba, South Sudan
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     TELECOM
+========================= -->
+
+<div id="telecom">
+
+<div class="category-heading">
+
+<div class="category-heading-icon">
+📱
+</div>
+
+<div>
+
+<h2>Telecommunication</h2>
+
+<p>
+Mobile & communication services
+</p>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+<div class="icon">📱</div>
+<span class="card-category">Telecommunication</span>
+<h3>Zain</h3>
+<p>
+Mobile telecommunications
+and connectivity services.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">📶</div>
+<span class="card-category">Telecommunication</span>
+<h3>MTN</h3>
+<p>
+Mobile telecommunications
+and connectivity services.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">📡</div>
+<span class="card-category">Telecommunication</span>
+<h3>Digitel</h3>
+<p>
+Telecommunication and
+connectivity services.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     SHOPPING
+========================= -->
+
+<div id="shopping">
+
+<div class="category-heading">
+
+<div class="category-heading-icon">
+🛍️
+</div>
+
+<div>
+
+<h2>Shopping & Malls</h2>
+
+<p>
+Supermarkets, shopping and retail
+</p>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+<div class="icon">🛒</div>
+<span class="card-category">Supermarket</span>
+<h3>Phenicia Supermarket</h3>
+<p>
+Supermarket and shopping services
+with food, household and personal
+care products.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🛒</div>
+<span class="card-category">Supermarket</span>
+<h3>JIT Supermarket</h3>
+<p>
+Supermarket and retail shopping
+services in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏬</div>
+<span class="card-category">Shopping Mall</span>
+<h3>Juba Mall</h3>
+<p>
+Shopping and retail destination
+in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     HOSPITALS
+========================= -->
+
+<div id="hospitals">
+
+<div class="category-heading">
+
+<div class="category-heading-icon">
+🏥
+</div>
+
+<div>
+
+<h2>
+Hospitals & Medical Centers
+</h2>
+
+<p>
+Healthcare and medical services
+</p>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Hospital</span>
+<h3>Juba Teaching Hospital</h3>
+<p>
+Hospital and healthcare services
+for patients and visitors.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Hospital</span>
+<h3>Gudele Hospital</h3>
+<p>
+Healthcare and medical services
+in the Gudele area.
+</p>
+<span class="location">📍 Gudele, Juba</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Medical Complex</span>
+<h3>Juba Medical Complex</h3>
+<p>
+Medical and healthcare services
+for residents and visitors.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Medical Complex</span>
+<h3>Baraka Medical Complex</h3>
+<p>
+Medical care and healthcare
+services in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Medical Center</span>
+<h3>Medi Care</h3>
+<p>
+Medical and healthcare services
+for residents and visitors.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Hospital</span>
+<h3>Queens</h3>
+<p>
+Healthcare and medical services
+in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">Specialist Center</span>
+<h3>Nile Kings Specialist</h3>
+<p>
+Specialist healthcare and
+medical services in Juba.
+</p>
+<span class="location">📍 Juba, South Sudan</span>
+</div>
+
+
+<div class="card">
+<div class="icon">🏥</div>
+<span class="card-category">
+Medical & Surgical Complex
+</span>
+
+<h3>
+Maxicare Medical and Surgical Complex
+</h3>
+
+<p>
+Medical care and surgical
+healthcare services in Juba.
+</p>
+
+<span class="location">
+📍 Dar Al Salam, Juba
+</span>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     MARKETS
+========================= -->
+
+<div id="markets">
+
+<div class="category-heading">
+
+<div class="category-heading-icon">
+🛍️
+</div>
+
+<div>
+
+<h2>
+Big Markets in Juba
+</h2>
+
+<p>
+Major markets and shopping areas
+across Juba
+</p>
+
+</div>
+
+</div>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Major Market
+</span>
+
+<h3>
+Konyo Konyo Market
+</h3>
+
+<p>
+One of Juba's major commercial markets,
+with food, household goods, clothing,
+electronics and many other products.
+</p>
+
+<span class="location">
+📍 Konyo Konyo, Juba
+</span>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Market
+</span>
+
+<h3>
+Juba Market
+</h3>
+
+<p>
+A central market serving shoppers,
+traders and visitors in Juba.
 </p>
 
 <span class="location">
@@ -1576,24 +1967,25 @@ and community.
 <div class="card">
 
 <div class="icon">
-⛪
+🛒
 </div>
 
 <span class="card-category">
-Church
+Market
 </span>
 
 <h3>
-St. Theresa Cathedral Kator
+Suk Libya
 </h3>
 
 <p>
-Christian worship and
-community services.
+Market area offering vegetables,
+electronics, agricultural inputs
+and wholesale goods.
 </p>
 
 <span class="location">
-📍 Kator, Juba
+📍 Suk Libya Road, Juba
 </span>
 
 </div>
@@ -1602,24 +1994,157 @@ community services.
 <div class="card">
 
 <div class="icon">
-⛪
+🛒
 </div>
 
 <span class="card-category">
-Church
+Market
 </span>
 
 <h3>
-Holy Spirit Parish Munuki
+Gumbo Market
 </h3>
 
 <p>
-Christian parish serving
-the Munuki community.
+A market serving the Gumbo area
+and surrounding communities.
 </p>
 
 <span class="location">
-📍 Munuki, Juba
+📍 Gumbo, Juba
+</span>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Market
+</span>
+
+<h3>
+Gudele Market
+</h3>
+
+<p>
+Neighbourhood market serving
+residents and shoppers in Gudele.
+</p>
+
+<span class="location">
+📍 Gudele, Juba
+</span>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Market
+</span>
+
+<h3>
+Jebel Market
+</h3>
+
+<p>
+Large market area offering groceries,
+clothes, electronics, hardware
+and other goods.
+</p>
+
+<span class="location">
+📍 Jebel, Juba
+</span>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Market
+</span>
+
+<h3>
+Custom Market
+</h3>
+
+<p>
+Market area with fresh produce,
+food stores, electronics, clothes
+and other goods.
+</p>
+
+<span class="location">
+📍 Custom, Juba
+</span>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Market
+</span>
+
+<h3>
+107 Market
+</h3>
+
+<p>
+Local shopping market serving
+residents and nearby communities.
+</p>
+
+<span class="location">
+📍 107 Area, Juba
+</span>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🛒
+</div>
+
+<span class="card-category">
+Market
+</span>
+
+<h3>
+New Site Market
+</h3>
+
+<p>
+Local market serving shoppers,
+traders and communities in the
+New Site area.
+</p>
+
+<span class="location">
+📍 New Site, Juba
 </span>
 
 </div>
@@ -1639,9 +2164,7 @@ the Munuki community.
      ABOUT
 ========================= -->
 
-<section
-    class="about"
-    id="about">
+<section class="about" id="about">
 
 <div class="container">
 
@@ -1659,23 +2182,22 @@ MAYA ANALYTICS
 
 </div>
 
-
 <p>
 
-MAYA ANALYTICS is a digital guide
-designed to help visitors quickly
-understand and discover important
-places in Juba.
+MAYA ANALYTICS is developing a digital
+guide designed to help visitors quickly
+understand and discover important places
+and services in Juba.
 
 </p>
 
-
 <p>
 
-Our goal is to make finding
-accommodation, financial services,
-education and places of worship
-simple and accessible.
+Our goal is to make finding accommodation,
+financial services, restaurants,
+transportation, telecommunication,
+education, healthcare, shopping and
+markets simple and accessible.
 
 </p>
 
@@ -1707,7 +2229,7 @@ Discover South Sudan.
 </p>
 
 <p>
-Your simple digital guide to Juba.
+Your digital guide to Juba.
 </p>
 
 </div>
@@ -1719,29 +2241,25 @@ Your simple digital guide to Juba.
 Directory
 </h3>
 
-<p>
-<a href="#hotels">
-Hotels
-</a>
-</p>
+<p><a href="#hotels">Hotels</a></p>
 
-<p>
-<a href="#banks">
-Banks
-</a>
-</p>
+<p><a href="#banks">Banks</a></p>
 
-<p>
-<a href="#universities">
-Universities
-</a>
-</p>
+<p><a href="#universities">Universities</a></p>
 
-<p>
-<a href="#churches">
-Churches
-</a>
-</p>
+<p><a href="#churches">Churches</a></p>
+
+<p><a href="#restaurants">Restaurants</a></p>
+
+<p><a href="#transport">Taxi & Transport</a></p>
+
+<p><a href="#telecom">Telecommunication</a></p>
+
+<p><a href="#shopping">Shopping & Malls</a></p>
+
+<p><a href="#hospitals">Hospitals</a></p>
+
+<p><a href="#markets">Markets</a></p>
 
 </div>
 
@@ -1776,10 +2294,6 @@ All Rights Reserved.
 </footer>
 
 
-<!-- =========================
-     LEAFLET MAP JAVASCRIPT
-========================= -->
-
 <script
 src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
 </script>
@@ -1788,7 +2302,7 @@ src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
 <script>
 
 /* =========================
-   CREATE JUBA MAP
+   CREATE MAP
 ========================= */
 
 const jubaMap = L.map('jubaMap').setView(
@@ -1798,7 +2312,7 @@ const jubaMap = L.map('jubaMap').setView(
 
 
 /* =========================
-   OPENSTREETMAP
+   OPEN STREET MAP
 ========================= */
 
 L.tileLayer(
@@ -1814,7 +2328,7 @@ L.tileLayer(
 
 
 /* =========================
-   CUSTOM MARKER FUNCTION
+   MARKER FUNCTION
 ========================= */
 
 function createMarker(
@@ -1828,7 +2342,8 @@ function createMarker(
     const markerIcon =
         L.divIcon({
 
-            className: 'custom-marker',
+            className:
+            'custom-marker',
 
             html: `
                 <div style="
@@ -1848,9 +2363,11 @@ function createMarker(
                 </div>
             `,
 
-            iconSize: [38,38],
+            iconSize:
+            [38,38],
 
-            iconAnchor: [19,19]
+            iconAnchor:
+            [19,19]
 
         });
 
@@ -1920,7 +2437,6 @@ createMarker(
     "Hotel"
 );
 
-
 createMarker(
     4.8528,
     31.5800,
@@ -1928,7 +2444,6 @@ createMarker(
     "Radisson Blu Hotel",
     "Hotel"
 );
-
 
 createMarker(
     4.8475,
@@ -1938,7 +2453,6 @@ createMarker(
     "Hotel"
 );
 
-
 createMarker(
     4.8700,
     31.5750,
@@ -1947,12 +2461,43 @@ createMarker(
     "Hotel"
 );
 
-
 createMarker(
     4.8620,
     31.5650,
     "🏨",
     "Quality Hotel",
+    "Hotel"
+);
+
+createMarker(
+    4.8568,
+    31.5720,
+    "🏨",
+    "Dembesh Hotel",
+    "Hotel"
+);
+
+createMarker(
+    4.8585,
+    31.5780,
+    "🏨",
+    "Imperial Plaza Hotel",
+    "Hotel"
+);
+
+createMarker(
+    4.8555,
+    31.5690,
+    "🏨",
+    "AFEX Hotel",
+    "Hotel"
+);
+
+createMarker(
+    4.8640,
+    31.5570,
+    "🏨",
+    "Ambassador Hotel Juba",
     "Hotel"
 );
 
@@ -1969,7 +2514,6 @@ createMarker(
     "Bank"
 );
 
-
 createMarker(
     4.8550,
     31.5790,
@@ -1978,12 +2522,35 @@ createMarker(
     "Bank"
 );
 
-
 createMarker(
     4.8500,
     31.5740,
     "🏦",
     "Equity Bank",
+    "Bank"
+);
+
+createMarker(
+    4.8560,
+    31.5785,
+    "🏦",
+    "Afriland First Bank",
+    "Bank"
+);
+
+createMarker(
+    4.8540,
+    31.5805,
+    "🏦",
+    "KCB Bank",
+    "Bank"
+);
+
+createMarker(
+    4.8585,
+    31.5745,
+    "🏦",
+    "Nile Commercial Bank",
     "Bank"
 );
 
@@ -2000,7 +2567,6 @@ createMarker(
     "University"
 );
 
-
 createMarker(
     4.8700,
     31.6000,
@@ -2008,7 +2574,6 @@ createMarker(
     "Upper Nile University",
     "University"
 );
-
 
 createMarker(
     4.8400,
@@ -2018,7 +2583,6 @@ createMarker(
     "University"
 );
 
-
 createMarker(
     4.8650,
     31.5900,
@@ -2027,12 +2591,19 @@ createMarker(
     "University"
 );
 
-
 createMarker(
     4.8450,
     31.5650,
     "🎓",
     "Destiny University",
+    "University"
+);
+
+createMarker(
+    4.8465,
+    31.5755,
+    "🎓",
+    "Catholic University of South Sudan",
     "University"
 );
 
@@ -2049,7 +2620,6 @@ createMarker(
     "Church"
 );
 
-
 createMarker(
     4.8390,
     31.5700,
@@ -2057,7 +2627,6 @@ createMarker(
     "St. Theresa Cathedral Kator",
     "Church"
 );
-
 
 createMarker(
     4.8750,
@@ -2067,19 +2636,276 @@ createMarker(
     "Church"
 );
 
+createMarker(
+    4.8755,
+    31.5655,
+    "⛪",
+    "Seventh-day Adventist Church",
+    "Church"
+);
+
 
 /* =========================
-   MAP VIEW BUTTON
+   RESTAURANT MARKERS
 ========================= */
 
-function resizeMap() {
+createMarker(
+    4.8580,
+    31.5760,
+    "🍽️",
+    "Uncle Restaurant",
+    "Restaurant"
+);
 
-    jubaMap.invalidateSize();
+createMarker(
+    4.8560,
+    31.5730,
+    "🍴",
+    "Comrade Restaurant",
+    "Restaurant"
+);
 
-}
+createMarker(
+    4.8610,
+    31.5790,
+    "🍽️",
+    "Medina Restaurant",
+    "Restaurant"
+);
+
+
+/* =========================
+   TAXI
+========================= */
+
+createMarker(
+    4.8590,
+    31.5700,
+    "🚕",
+    "Raba Taxi",
+    "Taxi & Transport"
+);
+
+
+/* =========================
+   TELECOM
+========================= */
+
+createMarker(
+    4.8565,
+    31.5805,
+    "📱",
+    "Zain",
+    "Telecommunication"
+);
+
+createMarker(
+    4.8545,
+    31.5755,
+    "📶",
+    "MTN",
+    "Telecommunication"
+);
+
+createMarker(
+    4.8605,
+    31.5735,
+    "📡",
+    "Digitel",
+    "Telecommunication"
+);
+
+
+/* =========================
+   SHOPPING
+========================= */
+
+createMarker(
+    4.8759,
+    31.5637,
+    "🛒",
+    "Phenicia Supermarket",
+    "Supermarket"
+);
+
+createMarker(
+    4.8570,
+    31.5745,
+    "🛒",
+    "JIT Supermarket",
+    "Supermarket"
+);
+
+createMarker(
+    4.8660,
+    31.5750,
+    "🏬",
+    "Juba Mall",
+    "Shopping Mall"
+);
+
+
+/* =========================
+   HOSPITALS
+========================= */
+
+createMarker(
+    4.8500,
+    31.5900,
+    "🏥",
+    "Juba Teaching Hospital",
+    "Hospital"
+);
+
+createMarker(
+    4.8820,
+    31.5600,
+    "🏥",
+    "Gudele Hospital",
+    "Hospital"
+);
+
+createMarker(
+    4.8600,
+    31.5800,
+    "🏥",
+    "Juba Medical Complex",
+    "Medical Complex"
+);
+
+createMarker(
+    4.8650,
+    31.5700,
+    "🏥",
+    "Baraka Medical Complex",
+    "Medical Complex"
+);
+
+createMarker(
+    4.8580,
+    31.5650,
+    "🏥",
+    "Medi Care",
+    "Medical Center"
+);
+
+createMarker(
+    4.8550,
+    31.5680,
+    "🏥",
+    "Queens",
+    "Hospital"
+);
+
+createMarker(
+    4.8620,
+    31.5850,
+    "🏥",
+    "Nile Kings Specialist",
+    "Specialist Center"
+);
+
+createMarker(
+    4.8505,
+    31.5605,
+    "🏥",
+    "Maxicare Medical and Surgical Complex",
+    "Medical & Surgical Complex"
+);
+
+
+/* =========================
+   MARKET MARKERS
+========================= */
+
+/*
+   NOTE:
+   These are approximate coordinates.
+   Verify exact GPS locations before
+   public airport deployment.
+*/
+
+createMarker(
+    4.84019,
+    31.60864,
+    "🛒",
+    "Konyo Konyo Market",
+    "Major Market"
+);
+
+createMarker(
+    4.8600,
+    31.5700,
+    "🛒",
+    "Juba Market",
+    "Market"
+);
+
+createMarker(
+    4.9000,
+    31.5350,
+    "🛒",
+    "Suk Libya",
+    "Market"
+);
+
+createMarker(
+    4.8200,
+    31.6200,
+    "🛒",
+    "Gumbo Market",
+    "Market"
+);
+
+createMarker(
+    4.8750,
+    31.5550,
+    "🛒",
+    "Gudele Market",
+    "Market"
+);
+
+createMarker(
+    4.8450,
+    31.5550,
+    "🛒",
+    "Jebel Market",
+    "Market"
+);
+
+createMarker(
+    4.8650,
+    31.5700,
+    "🛒",
+    "Custom Market",
+    "Market"
+);
+
+createMarker(
+    4.8300,
+    31.5900,
+    "🛒",
+    "107 Market",
+    "Market"
+);
+
+createMarker(
+    4.8400,
+    31.6000,
+    "🛒",
+    "New Site Market",
+    "Market"
+);
+
+
+/* =========================
+   MAP RESIZE
+========================= */
 
 setTimeout(
-    resizeMap,
+    function() {
+        jubaMap.invalidateSize();
+    },
     500
 );
 
